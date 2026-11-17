@@ -9,7 +9,7 @@ technologies: ["Web"]
 published_at: "2026-11-11"
 reviewed_at: "2026-11-13"
 order: 222
-related: ["interface.media-import", "interface.media-editing"]
+related: ["interface.media-import", "interface.media-editing", "interface.image-viewer"]
 sources: ["https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element", "https://www.w3.org/TR/WCAG22/"]
 illustrations: {"bad": {"path": "registry/standards/ui/admin-interface/assets/media-bad.webp", "alt": "Галерея и описание медиа: неудобный пример на вымышленных данных"}, "good": {"path": "registry/standards/ui/admin-interface/assets/media-good.webp", "alt": "Галерея и описание медиа: рекомендуемый пример на вымышленных данных"}}
 ---
