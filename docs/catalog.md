@@ -1,6 +1,6 @@
 # Каталог инженерных требований
 
-Редакция от 18 ноября 2026 года: **213 правил, 19 разделов, 26 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
+Редакция от 18 ноября 2026 года: **215 правил, 19 разделов, 26 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
 
 [Результат содержательной редакции](revision-2026-11-13.md) · [Языковые требования](language-baselines.md) · [Профили](stack-profiles.md) · [Статус публикации](publication-status.md).
 
@@ -157,6 +157,8 @@
 | `interface.search-suggestions` | [Подсказки поиска при фокусе](../registry/standards/ui/admin-interface/rules/search-suggestions.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.fuzzy-search` | [Поиск с учетом опечаток](../registry/standards/ui/admin-interface/rules/fuzzy-search.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.maps-fallback` | [Карты, координаты и маршруты](../registry/standards/ui/admin-interface/rules/maps-fallback.md) | Рекомендуется | `ui/admin-interface` |
+| `interface.banner-carousel` | [Баннеры и карусели](../registry/standards/ui/admin-interface/rules/banner-carousel.md) | Обязательно | `ui/admin-interface` |
+| `interface.image-viewer` | [Просмотр изображений](../registry/standards/ui/admin-interface/rules/image-viewer.md) | Обязательно | `ui/admin-interface` |
 
 ## Фреймворки и CMS
 

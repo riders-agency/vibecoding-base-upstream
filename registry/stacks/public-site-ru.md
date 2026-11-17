@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | Границы, контракты, готовность | [framework/lifecycle](../standards/framework/lifecycle/standard.md) | Для всего проекта |
 | SEO и публичные страницы | [seo/site-audit](../standards/seo/site-audit/standard.md) | Для индексируемой публичной части; отдельные правила имеют свои условия |
-| Навигация, поиск, формы | [ui/admin-interface](../standards/ui/admin-interface/standard.md) | Выбрать подходящие ID; редакторские черновики не обязательны каждому сайту |
+| Навигация, поиск, формы, баннеры и галереи | [ui/admin-interface](../standards/ui/admin-interface/standard.md) | Выбрать подходящие ID; редакторские черновики не обязательны каждому сайту |
 | Персональные данные РФ | [legal/russia-web](../standards/legal/russia-web/standard.md) | После определения юрисдикции, оператора, целей и потоков данных |
 | Безопасность | [security/no-secrets](../standards/security/no-secrets/standard.md) | По угрозам и фактическим функциям сайта |
 | Выпуск и восстановление | [delivery/release](../standards/delivery/release/standard.md) | По выбранной модели эксплуатации |
@@ -23,6 +23,8 @@
 3. Для обработки данных — [матрица форм и интеграций](../../templates/ru-data-processing-matrix.md), фактическая политика, отдельные согласия там, где они нужны, и проверка сетевых запросов до/после выбора.
 4. Проверенные прямые URL, метаданные, favicon, robots, canonical, sitemap и мобильное содержание на production после релиза.
 5. Зафиксированная ревизия приложения, точный commit корпуса, результаты проверок, исключения, владелец отката и порядок устранения блокирующих дефектов.
+
+Для каруселей выберите [interface.banner-carousel](../standards/ui/admin-interface/rules/banner-carousel.md), для просмотра фотографий — [interface.image-viewer](../standards/ui/admin-interface/rules/image-viewer.md). Проверьте одно действие баннера, свайп без перехода, изоляцию групп и полный текст подписи внутри просмотрщика. Отсутствие баннеров или галереи фиксируется как `not-applicable`, а не требует их добавления.
 
 ## Границы
 
