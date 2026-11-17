@@ -2,7 +2,7 @@
 
 A documentation repository of engineering requirements for AI-assisted development: scope, normative statements, examples, primary sources, and acceptance criteria. Russian is the canonical language.
 
-**212 rules, 19 navigation sections, and 26 modules.** Read the [main README](README.md), [catalog](docs/catalog.md), [language baselines](docs/language-baselines.md), and [revision report](docs/revision-2026-11-13.md).
+**213 rules, 19 navigation sections, and 26 modules.** Read the [main README](README.md), [catalog](docs/catalog.md), [language baselines](docs/language-baselines.md), and [revision report](docs/revision-2026-11-13.md).
 
 ## November 13, 2026 revision
 
@@ -25,7 +25,7 @@ The [source mapping](docs/revision-2026-11-13/source-mapping.md) covers Agent OS
 
 The [integration review](docs/integration-review-2026-11-13.md) separates documentary review, syntax checks, isolated runtime checks, and unexecuted application scenarios. The [archive preparation record](docs/validation-standards-revision-2026-11-13.md) is retained as historical evidence. Existing rule identity and first-publication dates are retained; the 70 new rules were first published on November 13, 2026.
 
-[eval.su/standards](https://eval.su/standards/) publishes the accepted 212-rule edition. GitHub merge, synchronization, public pages and Markdown downloads have been verified. See the exact [publication status](docs/publication-status.md).
+[eval.su/standards](https://eval.su/standards/) publishes accepted rules from main. The linked publication record documents the verified 212-rule release; newer additions are identified by the live version endpoint. See the exact [publication status](docs/publication-status.md).
 
 Import, rendering, search, and export code belongs to the consumer. This repository defines the [content contract](docs/content-contract.md). The earlier [documentation migration validation](docs/validation-documentation-only-2026-11-13.md) remains a historical record and does not certify the new candidate.
 
