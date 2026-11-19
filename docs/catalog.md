@@ -1,6 +1,6 @@
 # Каталог инженерных требований
 
-Редакция от 18 ноября 2026 года: **215 правил, 19 разделов, 26 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
+Редакция от 19 ноября 2026 года: **220 правил, 19 разделов, 26 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
 
 [Результат содержательной редакции](revision-2026-11-13.md) · [Языковые требования](language-baselines.md) · [Профили](stack-profiles.md) · [Статус публикации](publication-status.md).
 
@@ -15,7 +15,7 @@
 | [API](../registry/handbook/api.md) | 9 |
 | [Backend](../registry/handbook/backend.md) | 7 |
 | [Frontend](../registry/handbook/frontend.md) | 10 |
-| [Интерфейс](../registry/handbook/interface.md) | 33 |
+| [Интерфейс](../registry/handbook/interface.md) | 41 |
 | [Фреймворки и CMS](../registry/handbook/frameworks.md) | 25 |
 | [Интеграции](../registry/handbook/integrations.md) | 6 |
 | [Кеш и фоновые задачи](../registry/handbook/caching.md) | 7 |
@@ -129,7 +129,7 @@
 | `interface.server-thumbnails` | [Серверные превью](../registry/standards/ui/admin-interface/rules/server-thumbnails.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.row-navigation` | [Навигация по строке](../registry/standards/ui/admin-interface/rules/row-navigation.md) | Обязательно | `ui/admin-interface` |
 | `interface.row-selection` | [Выделение строк](../registry/standards/ui/admin-interface/rules/row-selection.md) | Обязательно | `ui/admin-interface` |
-| `interface.sticky-header` | [Закрепленный заголовок](../registry/standards/ui/admin-interface/rules/sticky-header.md) | Рекомендуется | `ui/admin-interface` |
+| `interface.sticky-header` | [Закрепленный заголовок таблицы](../registry/standards/ui/admin-interface/rules/sticky-header.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.incremental-loading` | [Постепенная загрузка](../registry/standards/ui/admin-interface/rules/incremental-loading.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.bulk-actions` | [Групповые действия](../registry/standards/ui/admin-interface/rules/bulk-actions.md) | Обязательно | `ui/admin-interface` |
 | `interface.manual-order` | [Ручной порядок](../registry/standards/ui/admin-interface/rules/manual-order.md) | Рекомендуется | `ui/admin-interface` |
@@ -159,6 +159,11 @@
 | `interface.maps-fallback` | [Карты, координаты и маршруты](../registry/standards/ui/admin-interface/rules/maps-fallback.md) | Рекомендуется | `ui/admin-interface` |
 | `interface.banner-carousel` | [Баннеры и карусели](../registry/standards/ui/admin-interface/rules/banner-carousel.md) | Обязательно | `ui/admin-interface` |
 | `interface.image-viewer` | [Просмотр изображений](../registry/standards/ui/admin-interface/rules/image-viewer.md) | Обязательно | `ui/admin-interface` |
+| `interface.sticky-navigation` | [Закреплённая верхняя навигация](../registry/standards/ui/admin-interface/rules/sticky-navigation.md) | Обязательно | `ui/admin-interface` |
+| `interface.svg-logo` | [Логотип сайта в SVG](../registry/standards/ui/admin-interface/rules/svg-logo.md) | Обязательно | `ui/admin-interface` |
+| `interface.mobile-actions` | [Мобильная панель основных действий](../registry/standards/ui/admin-interface/rules/mobile-actions.md) | Обязательно | `ui/admin-interface` |
+| `interface.cart-confirmation` | [Подтверждение добавления в корзину](../registry/standards/ui/admin-interface/rules/cart-confirmation.md) | Обязательно | `ui/admin-interface` |
+| `interface.telephone-links` | [Кликабельные телефонные номера](../registry/standards/ui/admin-interface/rules/telephone-links.md) | Обязательно | `ui/admin-interface` |
 
 ## Фреймворки и CMS
 

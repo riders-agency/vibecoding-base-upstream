@@ -1,6 +1,6 @@
 # Интерфейс административных систем
 
-Навигация по модулю `ui/admin-interface`. Правила навигации, поисковых подсказок, fuzzy search, карт, баннеров и просмотра изображений применимы также к публичным интерфейсам в указанной в статье области. Полный текст каждого правила хранится только в `rules/`; эта страница не является их копией.
+Навигация по модулю `ui/admin-interface`. Правила закрепленной навигации, логотипа SVG, мобильных действий, подтверждения корзины, телефонных ссылок, поисковых подсказок, fuzzy search, карт, баннеров и просмотра изображений применимы также к публичным интерфейсам в указанной в статье области. Полный текст каждого правила хранится только в `rules/`; эта страница не является их копией.
 
 ## Паспорт модуля
 
@@ -14,7 +14,7 @@
 | Роли сопровождения из прежнего манифеста | `maintainers` |
 | Языки | не ограничено языком |
 | Среды / технологии | any |
-| Число правил | 36 |
+| Число правил | 41 |
 
 Версия и статус перенесены из прежнего `standard.yaml` как сведения об исходном модуле. Они не означают новое ревью, назначение конкретного ответственного, полноту требований или проверенную готовность приложения. Даты содержательной проверки указаны в самих правилах.
 
@@ -28,7 +28,7 @@
 | `interface.server-thumbnails` | [Серверные превью](rules/server-thumbnails.md) | Рекомендуется |
 | `interface.row-navigation` | [Навигация по строке](rules/row-navigation.md) | Обязательно |
 | `interface.row-selection` | [Выделение строк](rules/row-selection.md) | Обязательно |
-| `interface.sticky-header` | [Закрепленный заголовок](rules/sticky-header.md) | Рекомендуется |
+| `interface.sticky-header` | [Закрепленный заголовок таблицы](rules/sticky-header.md) | Рекомендуется |
 | `interface.incremental-loading` | [Постепенная загрузка](rules/incremental-loading.md) | Рекомендуется |
 | `interface.bulk-actions` | [Групповые действия](rules/bulk-actions.md) | Обязательно |
 | `interface.manual-order` | [Ручной порядок](rules/manual-order.md) | Рекомендуется |
@@ -58,6 +58,11 @@
 | `interface.maps-fallback` | [Карты, координаты и маршруты](rules/maps-fallback.md) | Рекомендуется |
 | `interface.banner-carousel` | [Баннеры и карусели](rules/banner-carousel.md) | Обязательно |
 | `interface.image-viewer` | [Просмотр изображений](rules/image-viewer.md) | Обязательно |
+| `interface.sticky-navigation` | [Закреплённая верхняя навигация](rules/sticky-navigation.md) | Обязательно |
+| `interface.svg-logo` | [Логотип сайта в SVG](rules/svg-logo.md) | Обязательно |
+| `interface.mobile-actions` | [Мобильная панель основных действий](rules/mobile-actions.md) | Обязательно |
+| `interface.cart-confirmation` | [Подтверждение добавления в корзину](rules/cart-confirmation.md) | Обязательно |
+| `interface.telephone-links` | [Кликабельные телефонные номера](rules/telephone-links.md) | Обязательно |
 
 ## Зависимости и область применения
 
