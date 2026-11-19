@@ -14,7 +14,7 @@
 | Роли сопровождения из прежнего манифеста | `maintainers` |
 | Языки | не ограничено языком |
 | Среды / технологии | any |
-| Число правил | 41 |
+| Число правил | 47 |
 
 Версия и статус перенесены из прежнего `standard.yaml` как сведения об исходном модуле. Они не означают новое ревью, назначение конкретного ответственного, полноту требований или проверенную готовность приложения. Даты содержательной проверки указаны в самих правилах.
 
@@ -63,6 +63,12 @@
 | `interface.mobile-actions` | [Мобильная панель основных действий](rules/mobile-actions.md) | Обязательно |
 | `interface.cart-confirmation` | [Подтверждение добавления в корзину](rules/cart-confirmation.md) | Обязательно |
 | `interface.telephone-links` | [Кликабельные телефонные номера](rules/telephone-links.md) | Обязательно |
+| `interface.admin-scenario-parity` | [Приёмка перенесённой админки по сценариям](rules/admin-scenario-parity.md) | Обязательно |
+| `interface.editable-taxonomies` | [Редактируемые справочники, связи и страницы](rules/editable-taxonomies.md) | Обязательно |
+| `interface.session-draft-recovery` | [Повторный вход с сохранением черновика](rules/session-draft-recovery.md) | Обязательно |
+| `interface.product-variants` | [Варианты, остатки, цены и адреса товара](rules/product-variants.md) | Обязательно |
+| `interface.order-financial-history` | [Снимок заказа и история денег](rules/order-financial-history.md) | Обязательно |
+| `interface.filtered-schedule` | [Календарь и выдача по подходящим датам](rules/filtered-schedule.md) | Обязательно |
 
 ## Зависимости и область применения
 

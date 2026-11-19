@@ -1,3 +1,16 @@
+## Опыт переносов — 2026-11-19
+
+- Добавлено `interface.admin-scenario-parity` — Приёмка перенесённой админки по сценариям.
+- Добавлено `interface.editable-taxonomies` — Редактируемые справочники, связи и страницы.
+- Добавлено `interface.session-draft-recovery` — Повторный вход с сохранением черновика.
+- Добавлено `interface.product-variants` — Варианты, остатки, цены и адреса товара.
+- Добавлено `interface.order-financial-history` — Снимок заказа и история денег.
+- Добавлено `interface.filtered-schedule` — Календарь и выдача по подходящим датам.
+
+Уточнены прежние правила загрузки, быстрого редактора, истории, постепенной загрузки, редактирования медиа и поиска. Даты первой публикации и ID сохранены.
+
+[Сопоставление кейсов и правил](../../../../docs/migration-lessons.md).
+
 ## Верхняя навигация и основные действия сайта — 2026-11-19
 
 - Добавлены пять обязательных в своей области правил: `interface.sticky-navigation`, `interface.svg-logo`, `interface.mobile-actions`, `interface.cart-confirmation`, `interface.telephone-links`.

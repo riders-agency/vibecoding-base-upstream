@@ -1,6 +1,6 @@
 # Каталог инженерных требований
 
-Редакция от 19 ноября 2026 года: **220 правил, 19 разделов, 26 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
+Редакция от 19 ноября 2026 года: **240 правил, 20 разделов, 27 модулей**. Канонический текст находится только в связанных `rules/*.md`. Уровень обязательности действует в пределах области применения статьи.
 
 [Результат содержательной редакции](revision-2026-11-13.md) · [Языковые требования](language-baselines.md) · [Профили](stack-profiles.md) · [Статус публикации](publication-status.md).
 
@@ -9,21 +9,22 @@
 | Раздел | Правил |
 | --- | ---: |
 | [Основы и архитектура](../registry/handbook/architecture.md) | 7 |
-| [Работа с AI-агентами](../registry/handbook/ai-agents.md) | 6 |
+| [Работа с AI-агентами](../registry/handbook/ai-agents.md) | 7 |
 | [Совместная разработка](../registry/handbook/collaboration.md) | 6 |
 | [Базы данных](../registry/handbook/database.md) | 11 |
 | [API](../registry/handbook/api.md) | 9 |
 | [Backend](../registry/handbook/backend.md) | 7 |
 | [Frontend](../registry/handbook/frontend.md) | 10 |
-| [Интерфейс](../registry/handbook/interface.md) | 41 |
+| [Интерфейс](../registry/handbook/interface.md) | 47 |
 | [Фреймворки и CMS](../registry/handbook/frameworks.md) | 25 |
-| [Интеграции](../registry/handbook/integrations.md) | 6 |
-| [Кеш и фоновые задачи](../registry/handbook/caching.md) | 7 |
+| [Интеграции](../registry/handbook/integrations.md) | 7 |
+| [Кеш и фоновые задачи](../registry/handbook/caching.md) | 8 |
 | [Безопасность](../registry/handbook/security.md) | 12 |
 | [Тестирование](../registry/handbook/testing.md) | 6 |
 | [Выпуск и эксплуатация](../registry/handbook/operations.md) | 9 |
 | [Мобильные приложения](../registry/handbook/mobile.md) | 5 |
 | [Платежи](../registry/handbook/payments.md) | 5 |
+| [Перенос сайтов и админок](../registry/handbook/migration.md) | 11 |
 | [Языки и базовые соглашения](../registry/handbook/languages.md) | 17 |
 | [SEO и приемка публичного сайта](../registry/handbook/seo.md) | 17 |
 | [Персональные данные и требования РФ](../registry/handbook/legal-ru.md) | 14 |
@@ -50,6 +51,7 @@
 | `ai-agents.confirm-impact` | [Полномочия агента](../registry/standards/agent/base/rules/confirm-impact.md) | Обязательно | `agent/base` |
 | `ai-agents.evidence` | [Доказательства выполнения](../registry/standards/agent/base/rules/evidence.md) | Обязательно | `agent/base` |
 | `ai-agents.evals-budget` | [AI evals](../registry/standards/agent/base/rules/evals-budget.md) | Рекомендуется | `agent/base` |
+| `ai-agents.feedback-regression` | [Каждая поправка превращается в проверку](../registry/standards/agent/base/rules/feedback-regression.md) | Обязательно | `agent/base` |
 
 ## Совместная разработка
 
@@ -164,6 +166,12 @@
 | `interface.mobile-actions` | [Мобильная панель основных действий](../registry/standards/ui/admin-interface/rules/mobile-actions.md) | Обязательно | `ui/admin-interface` |
 | `interface.cart-confirmation` | [Подтверждение добавления в корзину](../registry/standards/ui/admin-interface/rules/cart-confirmation.md) | Обязательно | `ui/admin-interface` |
 | `interface.telephone-links` | [Кликабельные телефонные номера](../registry/standards/ui/admin-interface/rules/telephone-links.md) | Обязательно | `ui/admin-interface` |
+| `interface.admin-scenario-parity` | [Приёмка перенесённой админки по сценариям](../registry/standards/ui/admin-interface/rules/admin-scenario-parity.md) | Обязательно | `ui/admin-interface` |
+| `interface.editable-taxonomies` | [Редактируемые справочники, связи и страницы](../registry/standards/ui/admin-interface/rules/editable-taxonomies.md) | Обязательно | `ui/admin-interface` |
+| `interface.session-draft-recovery` | [Повторный вход с сохранением черновика](../registry/standards/ui/admin-interface/rules/session-draft-recovery.md) | Обязательно | `ui/admin-interface` |
+| `interface.product-variants` | [Варианты, остатки, цены и адреса товара](../registry/standards/ui/admin-interface/rules/product-variants.md) | Обязательно | `ui/admin-interface` |
+| `interface.order-financial-history` | [Снимок заказа и история денег](../registry/standards/ui/admin-interface/rules/order-financial-history.md) | Обязательно | `ui/admin-interface` |
+| `interface.filtered-schedule` | [Календарь и выдача по подходящим датам](../registry/standards/ui/admin-interface/rules/filtered-schedule.md) | Обязательно | `ui/admin-interface` |
 
 ## Фреймворки и CMS
 
@@ -205,6 +213,7 @@
 | `integrations.webhooks` | [Подпись вебхуков](../registry/standards/integrations/external/rules/webhooks.md) | Обязательно | `integrations/external` |
 | `integrations.mcp` | [Авторизация MCP](../registry/standards/integrations/external/rules/mcp.md) | Обязательно | `integrations/external` |
 | `integrations.files` | [Загрузка файлов](../registry/standards/integrations/external/rules/files.md) | Обязательно | `integrations/external` |
+| `integrations.delivery-evidence` | [Подтверждение заявки и внешнего эффекта](../registry/standards/integrations/external/rules/delivery-evidence.md) | Обязательно | `integrations/external` |
 
 ## Кеш и фоновые задачи
 
@@ -217,6 +226,7 @@
 | `caching.outbox` | [Transactional outbox](../registry/standards/backend/worker/rules/outbox.md) | По условию | `backend/worker` |
 | `caching.dead-letter` | [Dead-letter queue](../registry/standards/backend/worker/rules/dead-letter.md) | Рекомендуется | `backend/worker` |
 | `caching.redis-persistence` | [Redis: persistence и восстановление](../registry/standards/backend/worker/rules/redis-persistence.md) | Рекомендуется | `backend/worker` |
+| `caching.bounded-projection-refresh` | [Ограниченное обновление каталога и индекса](../registry/standards/backend/worker/rules/bounded-projection-refresh.md) | Обязательно | `backend/worker` |
 
 ## Безопасность
 
@@ -279,6 +289,22 @@
 | `payments.card-data` | [Платежные данные](../registry/standards/payments/stripe/rules/card-data.md) | Обязательно | `payments/stripe` |
 | `payments.reconciliation` | [Платежная сверка](../registry/standards/payments/stripe/rules/reconciliation.md) | Рекомендуется | `payments/stripe` |
 | `payments.test-live` | [Платежные окружения](../registry/standards/payments/stripe/rules/test-live.md) | Обязательно | `payments/stripe` |
+
+## Перенос сайтов и админок
+
+| ID | Правило | Уровень | Модуль |
+| --- | --- | --- | --- |
+| `migration.playbook` | [Пошаговый перенос сайта и админки](../registry/standards/delivery/site-migration/rules/playbook.md) | Обязательно | `delivery/site-migration` |
+| `migration.source-inventory` | [Инвентаризация исходного сайта](../registry/standards/delivery/site-migration/rules/source-inventory.md) | Обязательно | `delivery/site-migration` |
+| `migration.field-mapping` | [Карта полей и преобразований](../registry/standards/delivery/site-migration/rules/field-mapping.md) | Обязательно | `delivery/site-migration` |
+| `migration.repeatable-import` | [Повторяемый импорт и перенос изменений](../registry/standards/delivery/site-migration/rules/repeatable-import.md) | Обязательно | `delivery/site-migration` |
+| `migration.data-reconciliation` | [Сверка исходника и результата импорта](../registry/standards/delivery/site-migration/rules/data-reconciliation.md) | Обязательно | `delivery/site-migration` |
+| `migration.url-continuity` | [Сохранение адресов при переносе сайта](../registry/standards/delivery/site-migration/rules/url-continuity.md) | Обязательно | `delivery/site-migration` |
+| `migration.feature-parity` | [Функции сайта и замечания сохраняются при переносе](../registry/standards/delivery/site-migration/rules/feature-parity.md) | Обязательно | `delivery/site-migration` |
+| `migration.preview-isolation` | [Изолированный стенд для переноса](../registry/standards/delivery/site-migration/rules/preview-isolation.md) | Обязательно | `delivery/site-migration` |
+| `migration.cutover-recovery` | [Переключение сайта и восстановление записей](../registry/standards/delivery/site-migration/rules/cutover-recovery.md) | Обязательно | `delivery/site-migration` |
+| `migration.handoff` | [Передача перенесённого сайта владельцу](../registry/standards/delivery/site-migration/rules/handoff.md) | Обязательно | `delivery/site-migration` |
+| `migration.legacy-independence` | [Независимость перенесённого сайта от старого движка](../registry/standards/delivery/site-migration/rules/legacy-independence.md) | Обязательно | `delivery/site-migration` |
 
 ## Языки и базовые соглашения
 
