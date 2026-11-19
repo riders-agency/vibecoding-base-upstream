@@ -1,3 +1,9 @@
+## Опыт переносов — 2026-11-19
+
+- Добавлено `ai-agents.feedback-regression` — Каждая поправка превращается в проверку.
+
+[Сопоставление кейсов и правил](../../../../docs/migration-lessons.md).
+
 ## Кандидат содержательной редакции — 2026-11-13
 
 - Содержательно уточнены область, обязательность, границы, примеры и наблюдаемая приемка: `ai-agents.confirm-impact`, `ai-agents.context`, `ai-agents.evals-budget`, `ai-agents.evidence`, `ai-agents.least-privilege`, `ai-agents.untrusted-input`.

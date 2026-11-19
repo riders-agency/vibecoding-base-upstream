@@ -7,9 +7,9 @@ level: "recommended"
 tags: ["админка", "incremental-loading", "интерфейс"]
 technologies: ["Web"]
 published_at: "2026-11-11"
-reviewed_at: "2026-11-13"
+reviewed_at: "2026-11-19"
 order: 208
-related: ["api.pagination", "interface.table-sorting"]
+related: ["api.pagination", "interface.table-sorting", "interface.filtered-schedule"]
 sources: ["https://docs.opensearch.org/latest/search-plugins/searching-data/paginate/", "https://www.w3.org/WAI/ARIA/apg/patterns/table/", "https://www.w3.org/WAI/ARIA/apg/patterns/grid/"]
 ---
 
@@ -46,6 +46,7 @@ query_version=9; page_size=50; cursor связан со снимком и сро
 - Контракт задает максимальный page_size, непрозрачный cursor, версию нормализованного запроса, срок жизни и однозначный признак конца. Просроченный cursor запускает явное обновление.
 - Поздние ответы предыдущего запроса не добавляются к текущему. Повтор страницы не создает дубликаты по ID.
 - Для total различайте exact, approximate и unavailable; не вычисляйте точность из наличия числа.
+- Для публичного каталога или расписания, где нужна доступность без JavaScript, обычный адрес следующего периода или страницы служит резервом. Сверяйте полный набор по ключам даже при выключенном счётчике результатов.
 - Предоставьте доступную кнопку продолжения или эквивалентную навигацию. Виртуализация сохраняет активный элемент, контекст строк и восстановление позиции; grid требует полной клавиатурной модели.
 
 ## Как проверить

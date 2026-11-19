@@ -7,9 +7,9 @@ level: "recommended"
 tags: ["админка", "media-editing", "интерфейс"]
 technologies: ["Web"]
 published_at: "2026-11-11"
-reviewed_at: "2026-11-13"
+reviewed_at: "2026-11-19"
 order: 223
-related: ["interface.media-gallery", "interface.server-thumbnails"]
+related: ["interface.media-gallery", "interface.server-thumbnails", "ai-agents.feedback-regression"]
 sources: ["https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element", "https://www.rfc-editor.org/rfc/rfc9110.html"]
 ---
 
@@ -42,6 +42,8 @@ derivative_key=(original_version, crop_revision, dimensions, format).
 Для crop, resize, замены и удаления изображений. Разрушительное преобразование допустимо только как явно обозначенная операция с выбранной политикой хранения.
 
 ### Требования
+
+- Для точечной правки изображения зафиксируйте выбранный оригинал, объект правки и признаки, которые сохраняются. При обработке серии утвердите контрольный вариант и проверьте замены по идентификаторам и позициям галереи. Доказательство берите с опубликованного ресурса и его производных. Фото реального изделия и демонстрационный кадр помечайте по происхождению.
 
 - Храните параметры преобразования отдельно от оригинала и привязывайте их к его версии. Ключ кеша включает все параметры, влияющие на результат.
 - При одновременной замене оригинала и crop проверяйте base revision; координаты не переносятся на другое изображение без проверки.

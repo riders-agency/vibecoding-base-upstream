@@ -2,7 +2,9 @@
 
 A documentation repository of engineering requirements for AI-assisted development: scope, normative statements, examples, primary sources, and acceptance criteria. Russian is the canonical language.
 
-**220 rules, 19 navigation sections, and 26 modules.** Read the [main README](README.md), [catalog](docs/catalog.md), [language baselines](docs/language-baselines.md), and [revision report](docs/revision-2026-11-13.md).
+**240 rules, 20 navigation sections, and 27 modules.** Read the [main README](README.md), [catalog](docs/catalog.md), [language baselines](docs/language-baselines.md), and [revision report](docs/revision-2026-11-13.md).
+
+[Site migration playbook (Russian)](https://eval.su/standards/migration/playbook/) · [Migration worksheet](templates/site-migration.md).
 
 ## November 13, 2026 revision
 
