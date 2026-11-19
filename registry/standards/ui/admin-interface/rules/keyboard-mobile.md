@@ -9,7 +9,7 @@ technologies: ["Web"]
 published_at: "2026-11-11"
 reviewed_at: "2026-11-13"
 order: 225
-related: ["interface.editor-performance"]
+related: ["interface.editor-performance", "interface.mobile-actions"]
 sources: ["https://www.w3.org/TR/WCAG22/", "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", "https://www.w3.org/WAI/ARIA/apg/patterns/grid/", "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"]
 ---
 

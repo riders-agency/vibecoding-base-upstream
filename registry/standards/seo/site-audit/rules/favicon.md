@@ -9,7 +9,7 @@ technologies: ["Web"]
 published_at: "2026-11-13"
 reviewed_at: "2026-11-13"
 order: 1404
-related: []
+related: ["interface.svg-logo"]
 sources: ["https://developers.google.com/search/docs/appearance/favicon-in-search?hl=ru"]
 ---
 

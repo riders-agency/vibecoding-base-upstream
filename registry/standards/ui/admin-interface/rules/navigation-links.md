@@ -9,7 +9,7 @@ technologies: ["Web"]
 published_at: "2026-11-13"
 reviewed_at: "2026-11-13"
 order: 1301
-related: ["interface.keyboard-mobile", "interface.row-navigation"]
+related: ["interface.keyboard-mobile", "interface.row-navigation", "interface.sticky-navigation", "interface.telephone-links"]
 sources: ["https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/examples/disclosure-navigation-hybrid/"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 schema_version: 1
 id: "interface.sticky-header"
-title: "Закрепленный заголовок"
+title: "Закрепленный заголовок таблицы"
 section: "interface"
 level: "recommended"
 tags: ["админка", "sticky-header", "интерфейс"]
@@ -9,11 +9,11 @@ technologies: ["Web"]
 published_at: "2026-11-11"
 reviewed_at: "2026-11-13"
 order: 207
-related: ["interface.incremental-loading"]
+related: ["interface.incremental-loading", "interface.sticky-navigation"]
 sources: ["https://www.w3.org/WAI/ARIA/apg/patterns/table/", "https://www.w3.org/TR/WCAG22/"]
 ---
 
-# Закрепленный заголовок
+# Закрепленный заголовок таблицы
 
 ## Коротко
 

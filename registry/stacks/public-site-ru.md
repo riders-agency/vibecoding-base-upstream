@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | Границы, контракты, готовность | [framework/lifecycle](../standards/framework/lifecycle/standard.md) | Для всего проекта |
 | SEO и публичные страницы | [seo/site-audit](../standards/seo/site-audit/standard.md) | Для индексируемой публичной части; отдельные правила имеют свои условия |
-| Навигация, поиск, формы, баннеры и галереи | [ui/admin-interface](../standards/ui/admin-interface/standard.md) | Выбрать подходящие ID; редакторские черновики не обязательны каждому сайту |
+| Навигация, мобильные действия, формы, медиа и контакты | [ui/admin-interface](../standards/ui/admin-interface/standard.md) | Выбрать подходящие ID; редакторские черновики не обязательны каждому сайту |
 | Персональные данные РФ | [legal/russia-web](../standards/legal/russia-web/standard.md) | После определения юрисдикции, оператора, целей и потоков данных |
 | Безопасность | [security/no-secrets](../standards/security/no-secrets/standard.md) | По угрозам и фактическим функциям сайта |
 | Выпуск и восстановление | [delivery/release](../standards/delivery/release/standard.md) | По выбранной модели эксплуатации |
@@ -25,6 +25,10 @@
 5. Зафиксированная ревизия приложения, точный commit корпуса, результаты проверок, исключения, владелец отката и порядок устранения блокирующих дефектов.
 
 Для каруселей выберите [interface.banner-carousel](../standards/ui/admin-interface/rules/banner-carousel.md), для просмотра фотографий — [interface.image-viewer](../standards/ui/admin-interface/rules/image-viewer.md). Проверьте одно действие баннера, свайп без перехода, изоляцию групп и полный текст подписи внутри просмотрщика. Отсутствие баннеров или галереи фиксируется как `not-applicable`, а не требует их добавления.
+
+Для страниц с общей шапкой выберите [interface.sticky-navigation](../standards/ui/admin-interface/rules/sticky-navigation.md), для собственного логотипа — [interface.svg-logo](../standards/ui/admin-interface/rules/svg-logo.md), для мобильных приоритетов — [interface.mobile-actions](../standards/ui/admin-interface/rules/mobile-actions.md). Проверьте фокус, якоря, небольшую высоту окна, реальные размеры целей и работу клавиатуры.
+
+Для опубликованных контактов используйте [interface.telephone-links](../standards/ui/admin-interface/rules/telephone-links.md). Для магазина с добавлением в корзину — [interface.cart-confirmation](../standards/ui/admin-interface/rules/cart-confirmation.md): подтвержденная позиция, два дальнейших действия и безопасная обработка отказов и повторов. Если корзины или телефонных контактов нет, соответствующие проверки — `not-applicable` с причиной; добавлять их ради профиля не требуется.
 
 ## Границы
 
